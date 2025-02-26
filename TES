@@ -1624,9 +1624,5 @@ class Document {
     this.html = this.html.replaceAll("PLACEHOLDER_API_READY", isApiReady ? "block" : "hidden");
 
     return this.html.replaceAll(/PLACEHOLDER_\w+/gim, "");
-wrangler.toml (wrangler v3.88.0^)
-[observability.logs]
-enabled = true
-
   }
 }
